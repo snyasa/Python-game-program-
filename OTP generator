@@ -1,0 +1,6 @@
+import random
+n=int(input("Enter the number of digits of OTP:"))
+res=random.random()
+otp=str(res)
+otp=otp[2:n+2]
+print("Your OTP: ",otp)
